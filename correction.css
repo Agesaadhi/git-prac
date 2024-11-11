@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 800px;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    border-bottom: 40px solid rgba(32, 32, 241, 0.699);
+    border-top: 120px solid rgba(32, 32, 241, 0.699);
+}
+.left {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.498);
+
+}
+
+.name {
+    text-align: center;
+    margin-top: -60px;
+    font-size: larger;
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+}
+.image img {
+    width: 100px;
+    height: 145px;
+    border-radius: 50%;
+    position: absolute;
+   margin-left: 60px;
+   margin-top: 30px;
+}
+.profile  {
+    font-size: x-small;
+    margin-top: 200px;
+    margin-left: 40px;
+    
+}
+.skills {
+    font-size: x-small;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.skills .box {
+    position: relative;
+    width:100%;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h5 {
+    
+    color: black;
+    font-family: 50;
+
+}
+.skills .box .precent {
+    position: relative;
+    width: 70%;
+    height: 8px;
+    background:whitesmoke;
+    margin-right: 4px;
+    border-radius: 25px;
+    margin-left: 5px;
+    
+}
+.skills .box .precent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(32, 32, 241, 0.699);
+    border-radius: 25px;
+
+}
+.pskills {
+    font-size: x-small;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.pskills .vox {
+    position: relative;
+    width:100%;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.pskills .vox h5 {
+    
+    color: black;
+    font-family: 50;
+
+}
+.pskills .vox .drecent {
+    position: relative;
+    width: 70%;
+    height: 8px;
+    background:whitesmoke;
+    margin-right: 4px;
+    border-radius: 25px;
+    margin-left: 5px;
+    
+}
+.pskills .vox .drecent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(32, 32, 241, 0.699);
+    border-radius: 25px;
+
+}
+    
+
+h4 { 
+     color: rgba(2, 2, 251, 0.502);
+     border-bottom: 2px solid;
+     border-left: 100px;
+     padding-right: 20px;
+     word-spacing: 8px;
+     font-weight: 2000;
+     font-size: larger;
+}
+
+.right {
+    position: relative;
+    background-color: white;
+    display: grid;
+    grid-template-rows: .4fr 3fr;
+  
+
+
+}
+.main {
+    display: grid;
+    grid-template-columns: 0 0 0;
+    column-gap: 80px;
+    font-size: xx-small;
+    margin-left: 10px;
+    margin-top: -80px;
+    position: relative;
+    background-color: white;
+    border-top-left-radius: 100px;
+    
+
+}
+.one .two .three {
+    font-size: small;
+    align-items: center;
+    
+    
+}
+.one {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.two {
+     margin-left: 50px;
+     margin-top: 40px;
+    
+}
+.oneL {
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+.three {
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 85px;
+}
+.three {
+    border-left: 1px solid black;
+    padding-left: 20px;
+
+}
+.sub {
+    position: relative;
+    background-color: white;
+}
+.expp {
+    font-size: x-small;
+}
+
+.expp .dox {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.expp .dox .year_company {
+    min-width: 80px;
+}
+.expp .dox .year_company h6 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.workexp {
+    margin-top: -45px;
+    margin-left: 30px;
+    border-left: 2px solid;
+    height: 238px;
+}
+
+.dot {
+    border-left: 8px solid black;
+    height: 6px;
+    border-radius: 50px;
+    margin-left: -15px;
+    position: absolute;
+        
+}
+
+.eduu {
+    font-size: x-small;
+}
+
+.eduu .dox {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.eduu .dox .year_company {
+    min-width: 80px;
+}
+.eduu .dox .year_company h6 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.edu {
+    margin-top: 50px;
+    margin-left: 30px;
+    border-left: 2px solid;
+    height:105px;
+    
+}
+    
+
+.dot {
+    border-left: 10px solid black;
+    height: 6px;
+    border-radius: 100%;
+    margin-left: -16px;
+    position: absolute;
+    height: 10px;
+    
+}
+.right h4 {
+    font-size: small;
+    border-bottom: 1px solid;
+    margin-right: 15px;
+}
+.awaa {
+    font-size: x-small;
+}
+
+.awaa .dox {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.awaa .dox .year_company {
+    min-width: 80px;
+}
+.awaa .dox .year_company h6 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.awa {
+    margin-top: 60px;
+    margin-left: 30px;
+    border-left: 2px solid;
+    height: 105px;
+    
+}
+.edu i {
+   margin-left: -14px;
+}
+.workexp i {
+    margin-left: -14px;
+}
+.awa i {
+    margin-left: -14px;
+}
+#skew {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    background-color:white ;
+    transform: skew(-15deg,0);
+    margin-left: 155px;
+    margin-top: -20px;
+    
+}
+.gap {
+    padding-right: 10px;
+}
+.size i {
+    font-size: medium;
+    
+}
+.main i {
+    font-size: small;
+}
